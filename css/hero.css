@@ -1,0 +1,81 @@
+.hero {
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+        width: 1440px;
+        height: 600px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 0; margin-left:  auto; margin-right:  auto;
+}
+.hero-box{padding: 0 15px;
+    width: 1158px;
+    height: 224px;
+    max-width: 1158px; ;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 48px;}
+
+
+
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+letter-spacing: 0.02em;
+font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #fff;
+    width: 496px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+text-align: center;
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        max-width: 169px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 0;
+    /* zaboronyae tekstu perenosytysya white-space: nowrap; ,,padding: 16px 32px; width: 169px;
+        max-width: 169px;
+        height: 56px;   */
+    
+}
+
+.btn:hover, .btn:focus {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: #404bbf;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+ 
+    text-align: center;
+    
+}
