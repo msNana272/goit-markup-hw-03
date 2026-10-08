@@ -44,20 +44,20 @@ justify-content: flex-start;
 
     
 
-a1{ align-items: center;
+.a1{ align-items: center;
     justify-content: center;
     flex-direction: column;}
 
-   a2{align-items: center;
+   .a2{align-items: center;
             justify-content: center;
             flex-direction: row;
            }
 
-    a3{align-items: flex-start;
+    .a3{align-items: flex-start;
             justify-content: flex-start;
             flex-direction: column;
            }
-.nav-anchor-link{padding: 24px 0; gap: 0;}
+.nav-anchor-link{padding: 24px 0; gap: 0; display: inline-block;}
 .nav-anchor-link:hover, .nav-anchor-link:focus {
     color: #404bbf;}
 

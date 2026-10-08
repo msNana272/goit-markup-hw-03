@@ -37,7 +37,7 @@ background: #f4f4fd;}
 
 
 
-.li-box{ 
+.li-box{ display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
