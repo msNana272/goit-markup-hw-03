@@ -44,10 +44,14 @@ address {font-style: normal; margin:0;}
 
 
 
-
+.container {
+    padding: 0 15px;
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .contact-address {
-    width: 344px;
-    height: 72px;
+  
 margin-top: 0;
    margin-left: auto;
 }
@@ -59,7 +63,12 @@ margin-top: 0;
     gap: 40px;
 }
 
-.contact-address-item {}
+.contact-address-item {padding: 24px 0;
+
+    align-items: center;
+
+    flex-direction: row;
+    gap: 0;}
 
 .contacts-link{font-weight: 400; color: #434455;}
 .contacts-link:hover, .contacts-link:focus {color: #404bbf;}

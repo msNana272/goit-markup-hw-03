@@ -1,31 +1,19 @@
 .portfolio {
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
 padding: 120px 0;
-    width: 1440px;
-    height: 1240px;
+ 
     margin-left: auto;
         margin-right: auto; margin-top: 0px; margin-bottom: 0;}
 
 
 
-.container {
-    padding: 0 15px;
-        width: 1158px;
-        height: 72px;
-        max-width: 1158px;
-        margin-left: auto;
-        margin-right: auto;}
+
 .portfolio-box{
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 72px;
 padding: 0 15px;
-    width: 1158px;
-    height: 1000px;
+
     max-width: 1158px;
 
 }
@@ -42,9 +30,8 @@ padding: 0 15px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 24px;
-width: 1128px;
-    height: 888px;
+    gap: 48px 24px;
+
 
 }
 
@@ -53,8 +40,6 @@ width: 1128px;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0;
-width: 360px;
-    height: 420px;
     min-width: 288px;
     max-width: 360px;
     min-height: 360px;
@@ -67,8 +52,7 @@ width: 360px;
     justify-content: center;
     flex-direction: row;
     gap: 0;
-width: 360px;
-    height: 300px;
+
     min-width: 288px;
     max-width: 360px;
     min-height: 239px;
@@ -85,8 +69,7 @@ border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    width: 360px;
-    height: 120px;
+   
 
 }
 .portfolio-headline-media {

@@ -3,8 +3,8 @@
         justify-content: center;
         flex-direction: row;
         gap: 24px; padding: 120px 0;
-                width: 1440px;
-                height: 344px; margin-left: auto;
+            
+               margin-left: auto;
                         margin-right: auto; }
 
 
@@ -13,17 +13,15 @@
              justify-content: center;
              flex-direction: row;
              gap: 24px;
-             padding: 0 15px;
-             width: 1158px;
-             height: 104px;
+             padding: 0px 15px;
+           
              max-width: 1158px;
      }
 
 .features-list {}
 
-.features-text {width: 264px;
-        height: 104px;
-        align-items: flex-start;
+.features-text {display: flex;
+       align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;}
