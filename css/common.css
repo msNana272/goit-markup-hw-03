@@ -50,30 +50,27 @@ address {font-style: normal; margin:0;}
 .container {
     padding: 0 15px;
     max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+   
 }
-.contact-address {
-  
-margin-top: 0;
-   margin-left: auto;
-}
-
-.contact-address-list {
+.contact-address {display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    margin-left: auto;
 }
 
-.contact-address-item {padding: 24px 0;
+.contact-address-list {display: flex; max-width: 344px; gap: 40px;
+}
 
+.contact-address-item {padding: 0px;}
+
+.contacts-link{font-weight: 400; color: #434455; display: flex;
     align-items: center;
-
+    justify-content: center; padding: 24px 0;
     flex-direction: row;
     gap: 0;}
-
-.contacts-link{font-weight: 400; color: #434455;}
 .contacts-link:hover, .contacts-link:focus {color: #404bbf;}
 
 .sr-only {
