@@ -40,7 +40,7 @@ padding: 0 15px;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0;
-   flex-basis: calc((100% - 48) / 3);
+   flex-basis: calc((100% - 48px) / 3);
   
 
 }
