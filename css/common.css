@@ -61,7 +61,7 @@ address {font-style: normal; margin:0;}
     margin-left: auto;
 }
 
-.contact-address-list {display: flex; max-width: 344px; gap: 40px;
+.contact-address-list {display: flex; flex-grow: 1; gap: 40px;
 }
 
 .contact-address-item {padding: 0px;}

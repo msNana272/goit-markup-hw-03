@@ -40,9 +40,7 @@ padding: 0 15px;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0;
-    min-width: 288px;
-   
-    min-height: 360px;
+   flex-basis: calc((100% - 48) / 3);
   
 
 }
@@ -53,9 +51,7 @@ padding: 0 15px;
     flex-direction: row;
     gap: 0;
 
-    min-width: 288px;
- 
-    min-height: 239px;
+   
   
 
 }
